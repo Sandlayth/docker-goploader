@@ -1,4 +1,4 @@
-FROM armhfbuild/golang
+FROM golang
 
 MAINTAINER Sandlayth <modepadu95@riseup.net>
 
