@@ -1,4 +1,4 @@
-docker-arm-goploader
+docker-goploader
 ====================
 
 ##Use it now
