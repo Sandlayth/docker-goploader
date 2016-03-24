@@ -8,7 +8,7 @@ You can launch it using
 docker run -dt \
 	   --name goploader \
 	   -p 80:80 \
-	   -p 8008:8008 
+	   -p 8008:8008 \ 
 	   sandlayth/goploader
 ```
 
