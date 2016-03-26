@@ -1,7 +1,7 @@
 docker-goploader
 ====================
 
-##Use it now
+## Use it now
 
 You can launch it using
 ```
@@ -12,7 +12,7 @@ docker run -dt \
 	   sandlayth/goploader
 ```
 
-##Presentation
+## Presentation
 
 This image is based on the goploader project. The philosophy of goploader is that it should be easy to share files from your terminal. If you want to share a file with a few of your friends for example.
 
@@ -20,7 +20,7 @@ This project is composed of a client and a server. Both are free and you can ins
 
  
 
-##Features
+## Features
 
 * HTTPS only using Let's Encrypt and Caddy Server Note : This applies to https://up.depado.eu, you're free to serve the content using another webserver and without https if you decide to host it on your own machine.
 * Upload directly from stdin.
@@ -29,7 +29,7 @@ This project is composed of a client and a server. Both are free and you can ins
 * The key to decrypt files is not saved on the server.
 * Curl compliant.
 
-##How it works
+## How it works
 
 The server and client aren't using a peculiar API, instead they just use multipart forms. This way, a curl command is simple to understand, and simple to use. This ensures that anyone needing to upload files to the server can do it even without a graphic interface or without advanced knowledge in networking.
 
@@ -54,7 +54,7 @@ Some notes about the file processing
 
  
 
-##Technologies
+## Technologies
 
 The server and client try to keep things minimal.
 
@@ -73,7 +73,7 @@ The server and client try to keep things minimal.
 
  
 
-##Disclaimer and License
+## Disclaimer and License
 
 As specified multiple times to people interested in the project, I don't provide any kind of warranty. People might tamper with the code on their own server, the only thing I can tell is that the version that runs on my machine is the exact version that is hosted on the Github repository. As a side note, I do store the IP of people uploading files to https://up.depado.eu for debugging purposes, although I never store the decryption key.
 
@@ -100,5 +100,5 @@ As specified multiple times to people interested in the project, I don't provide
 >SOFTWARE.
 
 
-##Sources and references
+## Sources and references
 Here is the [Official website](https://up.depado.eu/) and the [original repository](https://github.com/Depado/goploader).
